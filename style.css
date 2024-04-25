@@ -42,7 +42,7 @@ p {
     font-size: 1rem;
 }
 
-/* Header styling using primary color variable */
+/* Header styling */
 header {
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -50,6 +50,27 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: right;
+}
+
+nav li{
+    margin: 0 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+nav a:hover, nav a:focus {
+    color: var(--primary-color);
+}
 /* Button styling with interaction states */
 button {
     background-color: var(--secondary-color);
