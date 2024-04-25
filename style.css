@@ -46,16 +46,25 @@ p {
 header {
     background-color: var(--secondary-color);
     color: var(--text-color);
-    padding: 10px;
-    text-align: center;
+    padding: 0px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: right;
+}
 nav ul {
     list-style-type: none;
-    padding: 1.5rem;
-    margin: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
     display: flex;
     justify-content: right;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 nav li{
@@ -66,6 +75,7 @@ nav a{
     text-decoration: none;
     color: inherit;
     font-weight: bold;
+    padding:10px;
 }
 
 nav a:hover, nav a:focus {
