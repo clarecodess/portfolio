@@ -9,7 +9,7 @@ body {
     line-height: 1.6;
 }
 
-/* Color palette as CSS variables for easy theme management */
+/* Color palette as CSS variables */
 :root {
     --background-color: #f8ffec; /* very light green, light mode background */
     --text-color: #000000; /* black, light mode text */
@@ -32,7 +32,7 @@ p {
     font-size: 1rem;
 }
 
-/* Header styling */
+/* Header */
 header {
     position: sticky;
     top:0;
@@ -80,7 +80,7 @@ nav a:hover, nav a:focus {
     color: var(--primary-color);
 }
 
-/*Home icons styling*/
+/* Home icons */
 .icons {
     display: flex;
     justify-content: center;
@@ -109,7 +109,7 @@ nav a:hover, nav a:focus {
     color: var(--primary-color);
 }
 
-/* Footer styling */
+/* Footer */
 footer {
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -119,7 +119,7 @@ footer {
     font-weight: bold;
 }
 
-/*Home styling*/
+/* Home */
 #home {
     display: flex;
     align-items: center;
@@ -161,3 +161,42 @@ footer {
     text-align: left;
 }
 
+/* Projects */
+
+#projects {
+    padding: 10px;
+}
+
+.project-container {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    
+}
+
+.project-card {
+    flex: 0 0 auto;
+    width: 300px;
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card h3, .project-card p {
+    margin: 10px 0;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+}
