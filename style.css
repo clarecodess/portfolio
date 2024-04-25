@@ -34,9 +34,12 @@ p {
 
 /* Header styling */
 header {
+    position: sticky;
+    top:0;
+    z-index: 1000;
     background-color: var(--secondary-color);
     color: var(--text-color);
-    padding: 1rem; 
+    padding: 0.5rem; 
     width: 100%;
     display: flex;
     align-items: center;
@@ -54,7 +57,7 @@ nav ul {
     padding: 10px 20px;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
     flex-wrap: wrap;
 
