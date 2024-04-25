@@ -17,15 +17,6 @@ body {
     --secondary-color: #b3d4a1; /* light green, secondary color */
 }
 
-/* Dark mode adjustments based on user's system preferences */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #000000; /* black, dark mode background */
-        --text-color: #f8ffec; /* very light green, dark mode text */
-        --primary-color: #37a75c; /* green remains the same for primary color */
-        --secondary-color: #b3d4a1; /* light green remains the same for secondary color */
-    }
-}
 
 /* Responsive container for centered content, max-width for large screens */
 .container {
