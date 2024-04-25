@@ -87,6 +87,34 @@ nav a:hover, nav a:focus {
     color: var(--primary-color);
 }
 
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icons a {
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+.icons a:hover, .icons a:focus {
+    color: var(--primary-color);
+}
+
+.skills-icons {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 30px;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+.skills-icons a:hover, .skills-icons a:focus {
+    color: var(--primary-color);
+}
+
 /* Footer styling */
 footer {
     background-color: var(--secondary-color);
