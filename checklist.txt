@@ -1,0 +1,94 @@
+Day 1: Planning and Design Concept
+Tasks:
+Define the purpose of the site - Highlight projects, skills, and contacts.
+Sketch the basic layout on paper.
+Choose a color scheme and font style to keep the design consistent.
+
+Checklist:
+- Purpose defined
+- Layout drafted
+- Color scheme and fonts chosen
+
+
+Day 2: Setup Environment and Start Development
+Tasks:
+Create a domain name and set up free hosting with GitHub Pages.
+Initialize a new repository for the website on GitHub.
+
+Checklist:
+- Domain and hosting set up
+- Development environment ready
+- GitHub repository set up
+
+
+Day 3: Develop Basic Website Structure
+Tasks:
+Code the basic HTML structure of the website.
+Set up the navigation, footer, and basic sections (About, Projects, Resume, Contact).
+Ensure the website is mobile-responsive.
+
+Checklist:
+- HTML structure completed
+- Basic sections and navigation coded
+- Responsive design implemented
+
+
+Day 4: Add Content to Sections
+Tasks:
+Write and format the content for the About Me section—introduction, skills, and background.
+Add a resume and detailed project descriptions in the Projects section.
+Add contact information.
+
+Checklist:
+- Content for About Me added
+- Resume and projects detailed
+- Contacts added
+
+
+Day 5: Styling and Multimedia
+Tasks:
+Apply CSS styles to enhance the visual appeal of the site based on the chosen color scheme and fonts.
+Add relevant multimedia elements—photos, project screenshots, icons.
+Include animations or interactive elements using JavaScript or CSS animations to make the website more engaging.
+
+Checklist:
+- CSS styling completed
+- Multimedia elements added
+- Interactive elements included
+
+
+Day 6: Optimization and Testing
+Tasks:
+Optimize website performance by compressing images, minifying CSS and JavaScript files.
+Test the website on different browsers and devices to ensure compatibility and responsiveness.
+Fix any bugs or issues identified during testing.
+
+Checklist:
+- Images and files optimized
+- Cross-browser testing done
+- Bugs fixed
+
+
+Day 7: Deployment and Launch
+Tasks:
+Perform final tests to ensure all links work and the content displays correctly.
+Deploy the website using GitHub Pages.
+Announce the website launch on LinkedIn, Twitter, and other social media platforms.
+
+Checklist:
+- Final tests conducted
+- Website deployed
+- Launch announced on social media
+
+
+Post-Launch
+Tasks:
+Regularly update the portfolio with new projects and achievements.
+Monitor website analytics to understand visitor behavior and make improvements based on feedback.
+Engage with visitors and professional contacts through the contact form and social media.
+
+Checklist:
+- Portfolio updates scheduled
+- Analytics reviewed monthly
+- Engagement with visitors maintained
+
