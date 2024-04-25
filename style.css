@@ -64,13 +64,15 @@ nav ul {
     padding: 10px 20px;
     margin: 0;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+
 }
 
 nav li{
     margin: 0 10px;
+    
 }
 
 nav a{
@@ -78,6 +80,7 @@ nav a{
     color: inherit;
     font-weight: bold;
     padding:10px;
+    font-size: large;
 }
 
 nav a:hover, nav a:focus {
