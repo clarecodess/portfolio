@@ -44,7 +44,7 @@ p {
 
 /* Header styling using primary color variable */
 header {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--text-color);
     padding: 10px;
     text-align: center;
