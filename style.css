@@ -1,0 +1,95 @@
+/* Base setup for viewport and font settings for all devices */
+meta[name="viewport"] {
+    content: "width=device-width, initial-scale=1";
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Color palette as CSS variables for easy theme management */
+:root {
+    --background-color: #f8ffec; /* very light green, light mode background */
+    --text-color: #000000; /* black, light mode text */
+    --primary-color: #37a75c; /* green, primary color */
+    --secondary-color: #b3d4a1; /* light green, secondary color */
+}
+
+/* Dark mode adjustments based on user's system preferences */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #000000; /* black, dark mode background */
+        --text-color: #f8ffec; /* very light green, dark mode text */
+        --primary-color: #37a75c; /* green remains the same for primary color */
+        --secondary-color: #b3d4a1; /* light green remains the same for secondary color */
+    }
+}
+
+/* Responsive container for centered content, max-width for large screens */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Responsive image settings to ensure they scale within their containers */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive typography using relative units */
+h1, p {
+    margin: 0 0 20px 0;
+}
+h1 {
+    font-size: 2.5rem;
+}
+p {
+    font-size: 1rem;
+}
+
+/* Header styling using primary color variable */
+header {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Button styling with interaction states */
+button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Media Queries for adjusting layouts based on different screen sizes */
+/* Smaller than 600px */
+@media (max-width: 600px) {
+    body {
+        background-color: var(--background-color);
+    }
+}
+
+/* Between 600px and 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        background-color: var(--background-color);
+    }
+}
+
+/* Larger than 900px */
+@media (min-width: 901px) {
+    body {
+        background-color: var(--background-color);
+    }
+}
