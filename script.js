@@ -7,7 +7,7 @@ document.querySelector('.left-arrow').addEventListener('click', () => {
 
 document.querySelector('.right-arrow').addEventListener('click', () => {
     document.querySelector('.project-container').scrollBy({
-        left:-300,
+        left:300,
         behavior: 'smooth'
     })
 })
