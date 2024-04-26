@@ -191,6 +191,7 @@ footer {
     scroll-snap-type:x mandatory;
     scroll-padding: 20px;
     width: calc(3 * (300px + 6 *10px));
+    
 }
 
 .project-card {
@@ -220,6 +221,11 @@ footer {
     background-color: var(--primary-color);
     color: var(--text-color);
     padding: 10px 20px;
+}
+
+.project-card a:hover, .project-card a:focus {
+    color: var(--background-color);
+    cursor: pointer;
 }
 
 .project-card img:hover, .project-card img:focus {
