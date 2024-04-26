@@ -181,7 +181,7 @@ footer {
 #projects {
     padding: 10px;
     position: relative;
-    
+    overflow: hidden;
 }
 
 .project-container {
@@ -190,7 +190,7 @@ footer {
     -webkit-overflow-scrolling: touch;
     scroll-snap-type:x mandatory;
     scroll-padding: 20px;
-    
+    width: calc(3 * (300px + 6 *10px));
 }
 
 .project-card {
@@ -240,11 +240,11 @@ footer {
 }
 
 .left-arrow {
-    left: 0;
+    left: 10px;
 }
 
 .right-arrow {
-    right: 0;
+    right: 10px;
 }
 
 /* Contact */
