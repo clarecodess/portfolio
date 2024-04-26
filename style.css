@@ -143,9 +143,23 @@ footer {
 /* About */
 #about {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     padding: 10px;
+    gap: 20px;
+}
+
+#about h1 {
+    width: 100%;
+    text-align: left;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
     gap: 20px;
 }
 
@@ -159,6 +173,8 @@ footer {
     max-width: 500px ;
     text-align: left;
 }
+
+
 
 /* Projects */
 
@@ -200,7 +216,15 @@ footer {
     padding: 10px 20px;
 }
 
+.project-card img:hover, .project-card img:focus {
+    color: var(--secondary-color);
+}
+
 /* Contact */
+#contact h1 {
+    width: 100%;
+    text-align: left;
+}
 .contact-icons {
     list-style-type: none;
     display: flex;
