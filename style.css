@@ -229,7 +229,7 @@ footer {
 .scroll-btn {
     position: absolute;
     top: 50%;
-    transform: translateY(50%);
+    transform: translateY(-50%);
     background-color: var(--secondary-color);
     border: none;
     cursor: pointer;
