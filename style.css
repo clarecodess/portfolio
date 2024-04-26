@@ -19,19 +19,17 @@ body {
 }
 
 
-
-
 /* Responsive typography using relative units */
-h1, p {
-    margin: 0 0 20px 0;
-}
 h1 {
+    margin: 0 0 20px 0;
     font-size: 2.5rem;
-    
 }
+
 p {
-    font-size: 1rem;
+    margin: 0 0 20px 0;
+    font-size: 1.5rem;
 }
+
 
 /* Header */
 header {
@@ -47,6 +45,12 @@ header {
     justify-content: space-between;
 }
 
+.logo img {
+    height:80px;
+    width: auto;
+    vertical-align: middle;
+}
+
 nav {
     display: flex;
     width: 100%;
@@ -55,10 +59,10 @@ nav {
 }
 nav ul {
     list-style-type: none;
-    padding: 10px 20px;
+    padding: 0;
     margin: 0;
     display: flex;
-    justify-content: right;
+    justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
 
@@ -79,6 +83,14 @@ nav a{
 
 nav a:hover, nav a:focus {
     color: var(--primary-color);
+}
+
+#hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 /* Home icons */
@@ -275,4 +287,94 @@ footer {
 
 .contact-icons a:hover, .icons a:focus {
     color: var(--primary-color);
+}
+
+/* Responsive */
+
+/* tablets */
+
+@media (max-width:768px) {
+    h1, p {
+        font-size: 1.2rem;
+    }
+
+    #home img, .about-illustration img {
+        
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .project-container {
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+
+    .about-content  {
+        flex-direction: column;
+    }
+    
+    #hamburger {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        position: absolute;
+        top: 60px;
+        left:0;
+        background-color: var(--secondary-color);
+        
+    }
+
+   .logo, nav {
+    flex: 1;
+    
+   }
+
+   nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+    nav ul.show {
+        display: flex;
+    }
+
+
+    .project-card {
+        width: 100%;
+        max-width: 340px;
+    }
+}
+
+/* phones */
+
+@media (max-width:480px) {
+    body {
+        padding: 5px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 8px;
+        font-size: medium;
+    }
+
+    .icons a, .contact-icons a {
+        font-size: small;
+    }
+
+    .project-card {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .project-card a {
+        padding: 8px 16px;
+    }
 }
