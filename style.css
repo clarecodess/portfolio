@@ -180,12 +180,15 @@ footer {
 
 #projects {
     padding: 10px;
+    position: relative;
 }
 
 .project-container {
     display: flex;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    scroll-snap-type:x mandatory;
+    scroll-padding: 20px;
     
 }
 
@@ -196,11 +199,13 @@ footer {
     background-color: white;
     padding: 20px;
     text-align: center;
+    scroll-snap-align: start;
 }
 
 .project-card img {
     width: 100%;
     height: auto;
+    transition: transform 0.3s ease-in-out;
 }
 
 .project-card h3, .project-card p {
@@ -217,7 +222,28 @@ footer {
 }
 
 .project-card img:hover, .project-card img:focus {
-    color: var(--secondary-color);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    background-color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 24px;
+    z-index: 10;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
 }
 
 /* Contact */
