@@ -84,12 +84,13 @@ nav a:hover, nav a:focus {
 .icons {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .icons a {
     color: var(--text-color);
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .icons a:hover, .icons a:focus {
@@ -100,7 +101,7 @@ nav a:hover, nav a:focus {
     list-style-type: none;
     display: flex;
     padding: 0;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     color: var(--text-color);
 }
