@@ -105,9 +105,7 @@ nav a:hover, nav a:focus {
     color: var(--text-color);
 }
 
-.skills-icons a:hover, .skills-icons a:focus {
-    color: var(--primary-color);
-}
+
 
 /* Footer */
 footer {
@@ -199,4 +197,23 @@ footer {
     background-color: var(--primary-color);
     color: var(--text-color);
     padding: 10px 20px;
+}
+
+/* Contact */
+.contact-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: var(--text-color);
+}
+
+.contact-icons a {
+    color: var(--text-color);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.contact-icons a:hover, .icons a:focus {
+    color: var(--primary-color);
 }
