@@ -210,7 +210,7 @@ footer p {
     position: relative;
     overflow: hidden;
 }
-
+/*
 .project-container {
     display: flex;
     overflow-x: auto;
@@ -219,7 +219,7 @@ footer p {
     scroll-padding: 20px;
     width: calc(3*(300px + 6*10px));
     
-}
+} */
 
 .project-card {
     flex: 0 0 auto;
